@@ -1,0 +1,20 @@
+class Segitiga:
+    def __init__(self):
+        self.alas = 10
+        self.tinggi = 6
+        self.warna = "Merah"
+
+    def luas(self):
+        return 0.5 * self.alas * self.tinggi
+
+    def keliling_alas_tinggi(self):
+        return self.alas + self.tinggi
+
+
+if __name__ == "__main__":
+    segitigaku = Segitiga()
+
+    print("Segitiga ku warna :", segitigaku.warna)
+    print("Alas :", segitigaku.alas)
+    print("Tinggi :", segitigaku.tinggi)
+    print("Luas Segitiga :", segitigaku.luas())
